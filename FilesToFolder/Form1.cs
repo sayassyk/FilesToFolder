@@ -72,6 +72,10 @@ namespace FilesToFolder
                     { 
                         oneImageGroup = pic.Substring(0, pic.IndexOf("_") );
                     }
+                    else if (pic.Contains("-", StringComparison.CurrentCulture))
+                    {
+                        oneImageGroup = pic.Substring(0, pic.IndexOf("-") );
+                    }
                     else
                     {
                         oneImageGroup = pic.Substring(0, pic.IndexOf("."));
