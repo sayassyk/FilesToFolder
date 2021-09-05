@@ -4,6 +4,21 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>move-icon-png-3.ico</ApplicationIcon>
+    <Version>1.1.0</Version>
+    <Authors>Sayas Khan</Authors>
+    <Company>ADTS</Company>
+    <Description>A simple windows application to seggregate image files to folders.</Description>
+    <Copyright />
+    <PackageIcon>move-icon-png-3.jpg</PackageIcon>
+    <PackageIconUrl />
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Downloads\move-icon-png-3.jpg">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

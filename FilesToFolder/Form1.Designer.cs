@@ -59,10 +59,9 @@ namespace FilesToFolder
             // label1
             // 
             this.label1.AutoEllipsis = true;
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(90, 31);
+            this.label1.Location = new System.Drawing.Point(13, 31);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(97, 15);
+            this.label1.Size = new System.Drawing.Size(250, 15);
             this.label1.TabIndex = 2;
             this.label1.Text = "0 JPG files found!";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -81,7 +80,6 @@ namespace FilesToFolder
             this.Text = "Images To Folders";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
